@@ -1,0 +1,157 @@
+body, h1, h2, h3, p, a, ul, ol, header, footer, nav, main, article {
+	font-size: 15px;
+	color: #444;
+	font-family: 'Gentium Basic', serif;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fefefe;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+	font-weight: 900;
+	color: #333;
+}
+
+h1 a {
+	text-decoration: none; 
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.8em;
+	color: #555;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: 1em;
+	color: #777;
+	margin-bottom: 1em;
+}
+
+a {
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+	color: inherit;
+}
+
+hr {
+	border: 1px solid #eee;
+}
+
+/* content width styles */
+header, footer {
+	padding: 1em 25%;
+}
+
+main {
+	width: 50%;
+}
+
+
+/* header.html styles */
+header {
+	background-color: #ddd;
+	margin-bottom: 2em;
+}
+
+header #page_title {
+	display: inline-block;
+}
+
+header nav {
+	display: inline-block;
+	float: right;
+	margin-top: 0.5em;
+}
+
+header nav a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	font-weight: 100;
+	color: #555;
+	margin: 0 10px;
+}
+
+
+/* footer.html styles */
+footer {
+	background-color: #ddd;
+	margin-top: 2em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+footer a {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+}
+
+
+/* main styles */
+main {
+	margin: 0 auto;
+}
+
+
+/* index.html styles */
+#about {
+	margin: 0 auto;
+	width: 450px;
+}
+
+#icon {
+	width: 150px;
+	margin: 0 5% 20px 0;
+	float: left;
+}
+
+#intro {
+	display: inline-block;
+	width: 250px;
+}
+
+#intro h2 {
+	margin-bottom: 10px;
+}
+
+#about_after_hr {
+	clear: both;
+}
+
+article {
+	margin: 0 0 2em;
+}
+
+article h2 a {
+	font-size: 1.1em;
+}
+
+.read_more {
+	margin-top: 10px;
+}
+
+.read_more a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	font-weight: 100;
+}
+
+
+/* post.html styles */
+.post_content p {
+	margin: 1em 0;
+}
+
+

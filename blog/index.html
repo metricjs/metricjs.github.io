@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div id="about">
+	<img id="icon" src="images/black_cat_icon.png" alt="BlackCatHikari icon - a grayscale photo of a curled up, sleeping cat">
+	<div id="intro">
+		<h1>Millie Macdonald</h1>
+		<h2>BlackCatHikari</h2>
+		<p>Software Engineering Student</p>
+		<p>Aspiring Web Developer</p>
+		<p>QA Intern @ <a href="www.ephox.com">Ephox</a></p>
+	</div>
+</div>
+
+<hr id="about_after_hr" />
+
+<div id="post_list">
+	{% for post in site.posts %}
+	<article>
+		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<h3>{{ post.date }} </h3>
+		<p>{{ post.excerpt }}</p>
+		<p class="read_more"><a href="{{ post.url }}">Read More...</a></p>
+	</article>
+	
+	<hr />
+	
+	{% endfor %}	
+</div>
+
+
+
