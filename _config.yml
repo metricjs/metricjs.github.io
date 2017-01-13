@@ -5,8 +5,7 @@ email: milliemacdonald4@gmail.com
 description: > 
   A blog by Millie Macdonald about her adventures in web development.
 baseurl: "" 
-#url: "http://blackcathikari.github.io"
-url: ""
+url: "http://blackcathikari.github.io"
 
 # External things
 github_profile: https://github.com/blackcathikari

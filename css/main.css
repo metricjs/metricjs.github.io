@@ -85,6 +85,19 @@ main {
 	margin: 0 auto;
 }
 
+.btn {
+	margin: 10px 0;
+	background-color: #eee;
+	padding: 3px 5px;
+	display: inline-block;
+	width: auto;
+}
+
+.btn a {
+	text-decoration: none;
+	font-weight: 100;
+}
+
 
 
 
