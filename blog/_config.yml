@@ -1,0 +1,30 @@
+# Core
+title: Millie Macdonald - Dev Blog
+author: Millie Macdonald
+email: milliemacdonald4@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  A blog by Millie Macdonald (BlackCatHikari on various sites) about her adventures in web development.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# External things
+github_username:  BlackCatHikari
+github_profile: https://github.com/blackcathikari
+linkedin_profilt: https://www.linkedin.com/in/milliemacdonald/
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Defaults
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#    values: 
+#      layout: "default"

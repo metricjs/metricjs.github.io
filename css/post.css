@@ -1,0 +1,11 @@
+/* post.html styles */
+.post_content p {
+	margin: 1em 0;
+	line-height: 1.5em;
+}
+
+.post-nav {
+	margin: auto;
+	text-align: center;
+	padding-right: 50px;
+}
