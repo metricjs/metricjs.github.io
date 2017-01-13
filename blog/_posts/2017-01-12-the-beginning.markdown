@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Beginning"
+date: 2017-01-12
 ---
 I've been looking into various web technologies lately - languages, frameworks, etc. - because I have a couple projects I want to do. This of course required hours of trawling the internet for posts on all these various technologies, and eventually bugging some of my friends and co-workers about technologies they liked. And despite it not being particularly useful for what I wanted, the conversations kept coming back to Jekyll.
 
