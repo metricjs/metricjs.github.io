@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating a Multilingual Website"
-date: 2017-01-13
+date: 2017-01-18
 ---
 I'm about to start on a new project - a web site that will hopefully serve as a hub for a gaming community I'm involved with - and one of the big things I'm having to learn is how to create a multilingual website. At the start, we only need English and Japanese, but this has caused several complications and required me to do a lot of research, which I've outlined below (partly for my own reference). 
 
