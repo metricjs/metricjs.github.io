@@ -7,8 +7,8 @@ So I just made a Google Form, and it ended up being 35 pages long because the br
 
 The survey asks the user about all these different websites - whether they use them and if so, how. To make it easier on the user I wanted to make the first page ask the user if they used each of the website, and chose which pages they went to from that. So, say the questions were:
 
-Do you use Google? Yes / No
-Do you use Bing? Yes / No
+- Do you use Google? Yes / No
+- Do you use Bing? Yes / No
 
 If the use selected "Yes" for both they would go to a page asking questions about Google and then a page asking questions about Bing. If they selected "Yes" for only one question they would only go to the relevant page, and if they selected "No" for both they wouldn't go to either. Makes sense? It does to me.
 
