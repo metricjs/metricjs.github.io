@@ -4,6 +4,14 @@
 	line-height: 1.5em;
 }
 
+.post_content ul, .post_content ol {
+	margin-left: 20px;
+}
+
+.post_content li {
+	margin: 5px 0;
+}
+
 .post-nav {
 	margin: auto;
 	text-align: center;
