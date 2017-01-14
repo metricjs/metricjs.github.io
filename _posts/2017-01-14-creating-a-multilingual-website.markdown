@@ -5,11 +5,11 @@ date: 2017-01-18
 ---
 I'm about to start on a new project - a web site that will hopefully serve as a hub for a gaming community I'm involved with - and one of the big things I'm having to learn is how to create a multilingual website. At the start, we only need English and Japanese, but this has caused several complications and required me to do a lot of research, which I've outlined below (partly for my own reference). 
 
-*Finding a Translator*
+**Finding a Translator**
 
 The first problem was finding a translator for the Japanese content. Luckily, I have a friend who speaks Japanese so that was easy to solve.
 
-*Designing the Site*
+**Designing the Site**
 
 The next was how to design the site to allow for multiple languages. The two basic options here are to have multiple versions of every page, one for each language, or to have one version and populate all text from some resource (e.g. a JSON file) that contains the various translations. But both of these have their own problems.
 
@@ -35,7 +35,8 @@ The reason I'm considering Jekyll is that it takes all your HTML (content and la
 
 Of course, I may yet be wrong. Jekyll may not do what I want. But it's a simpler solution than messing with Webpack so I hope it does. 
 
-*Language Representation in the Site URL*
+**Language Representation in the Site URL**
+
 The last problem was how to structure the site files and therefore the URL to allow for multiple languages. A blog post I found - [Tips for Designing and Building a Multilingual Website](https://webdesign.tutsplus.com/articles/tips-for-designing-and-building-a-multilingual-website--cms-24708) by Tuts+ - outlines a few ways this can be done. In the end, I think I'll be using subdirectories (e.g. siteurl.com/en and siteurl.com/jp) as this is the easiest way to structure the site files and URL without messing with subdomains and such.
 
 There's a section in that post about duplicate content, and identifying the preferred version of a page for each language. This helps search engines identify who a page is targeted at, and what other versions exist. The HTML looks like this (copied from the above linked page):
@@ -50,7 +51,8 @@ Another thing to note from that post are the comments on ensuring whatever fonts
 
 They also mention localising dates, approaches to allowing the user to change the site language - using a drop down or flags - and how to automatically detect the user's language. They link to [Should You Ask the User or their Browser?](https://www.smashingmagazine.com/2013/02/remove-interface-elements/#language) by Smashing Magazine for more information on the latter. 
 
-*Other Resources*
+**Other Resources**
+
 Finally, there are a couple other sites I've found that contain useful information I haven't had the chance to properly look at yet. These include:
 
 - [13 Tips for Making Responsive Web Design Multi-Lingual - Responsive News](http://responsivenews.co.uk/post/123104512468/13-tips-for-making-responsive-web-design)
