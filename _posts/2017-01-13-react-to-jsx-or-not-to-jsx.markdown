@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "React - To JSX or not to JSX"
-date: 2017-01-13
+date: 2017-01-15
 ---
 I strongly dislike JSX. (I originally typed “hate” but that's just too strong a word.) I can see some uses for it but, as a friend recently said, “I just want JS that looks like real JS”. 
 
