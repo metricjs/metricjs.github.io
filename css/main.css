@@ -119,10 +119,6 @@ main {
 		visibility: hidden;
 	}
 	
-	#sidebar_text {
-		margin: 0;
-	}
-	
 	#sidebar_nav {
 		display: block;
 		visibility: visible;
