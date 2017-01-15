@@ -58,15 +58,15 @@ hr {
 	background-color: #eee;
 	padding: 20px 10px 10px;
 	text-align: center;
-	line-height: 2.5em;
+	line-height: 2em;
 }
 
-#bch_icon {
+#sidebar #bch_icon {
 	width: 180px;
 }
 
 #sidebar_text {
-	margin: 20px 0;
+	margin: 20px 0 10px;
 }
 
 #sidebar_text h1 {
@@ -75,6 +75,11 @@ hr {
 
 #sidebar p {
 	line-height: 1.5em;
+}
+
+#sidebar_nav {
+	display: none;
+	visibility: hidden;
 }
 
 
@@ -91,6 +96,7 @@ main {
 	padding: 3px 5px;
 	display: inline-block;
 	width: auto;
+	border-radius: 1px;
 }
 
 .btn a {
@@ -98,6 +104,41 @@ main {
 	font-weight: 100;
 }
 
+
+/* MEDIA QUERIES */
+@media (max-width: 600px) {
+	#sidebar {
+		width: 100%;
+		height: auto;
+		padding: 10px 0;
+		position: static;
+	}
+	
+	#sidebar #bch_icon {
+		display: none;
+		visibility: hidden;
+	}
+	
+	#sidebar_text {
+		margin: 0;
+	}
+	
+	#sidebar_nav {
+		display: block;
+		visibility: visible;
+	}
+	
+	#sidebar_nav .btn {
+		display: inline-block;
+		background-color: #fefefe;
+		margin: 0;
+	}
+	
+	main {
+		width: 100%;
+		padding: 20px;
+	}
+}
 
 
 
