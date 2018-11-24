@@ -3,26 +3,27 @@
 
 	<head>
 		{% include innerHead.html %}
-		
+
 		<title>{{ page.title }}</title>
-		
+
 		<link rel="stylesheet" href="/css/post.css">
 	</head>
-	
+
 	<body>
-		{% include sidebar.html %}
-		
+		{% include header.html %}
+
 		<main class="post_content">
-			<h1>{{ page.title }}</h1>
-			<h3>{{ page.date | date_to_long_string }}</h3>
-			<hr />
-			{{ content }}
-			
-			<div class="post-nav">
-				<p class="btn"><a href="{{site.url}}">Home</a></p>
+			<div class="content_container">
+				<h1>{{ page.title }}</h1>
+				<h3>{{ page.date | date_to_long_string }}</h3>
+				{{ content }}
+
+				<div class="post-nav">
+					<p class="btn"><a href="{{site.url}}">Home</a></p>
+				</div>
 			</div>
 		</main>
-		
+
 	</body>
-	
+
 </html>

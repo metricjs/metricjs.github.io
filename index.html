@@ -15,20 +15,69 @@
 	<body>
 		{% include header.html %}
 
-		<main id="post_list">
-			{% for post in site.posts %}
-			<article>
-				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-				<h3 class="post_date">{{ post.date | date_to_long_string }} </h3>
-				{{ post.excerpt }}
-				<p class="btn"><a href="{{ post.url }}">Read more...</a></p>
-			</article>
+		<section id="projects">
+			<div class="content_container">
+				<h2>Projects</h2>
+				<ul>
+					<li><a href="http://riptidesquids.com/">Website</a> for my Splatoon team</li>
+				</ul>
+			</div>
+		</section>
 
-			<hr />
+		<div class="divider"></div>
 
-			{% endfor %}
+		<section id="work_experience">
+			<div class="content_container">
+				<h2>Work Experience</h2>
+				<h3><a href="https://www.tiny.cloud">Tiny</a></h3>
+				<ul>
+					<li>Software Engineer: Dec 2017 - now</li>
+					<li>Part-time QA Engineer: July 2017 - Nov 2017</li>
+					<li>QA Intern: Jun 2016 - Jun 2017</li>
+				</ul>
+				<h3>University of Queensland</h3>
+				<ul>
+					<li>Course tutor: Semester 2 2016 & 2017</li>
+				</ul>
+				<h3><a href="https://bettacarhire.com/">Betta Car & Ute Hire</a></h3>
+				<ul>
+					<li>Front desk customer service: Nov 2014 - Jul 2016</li>
+				</ul>
+			</div>
+		</section>
 
-		</main>
+		<div class="divider"></div>
+
+		<section id="education">
+			<div class="content_container">
+					<h2>Education</h2>
+					<h3>Bachelor of Engineering (Honours): 2013 - Jul 2017</h3>
+					<ul>
+						<li>University of Queensland</li>
+						<li>Major: Software Engineering</li>
+						<li>Thesis: “Analysing K-means” – an investigation of the K-means clustering algorithm and how the properties of the problems on which it’s run can affect its performance and results.</li>
+						<li>Electives: web design and development, networks, security, AI and machine learning.</li>
+					</ul>
+					<h3>Bachelor of Arts: 2016</h3>
+					<ul>
+						<li>University of Queensland</li>
+						<li>Major: Psychology</li>
+					</ul>
+			</div>
+		</section>
+
+		<div class="divider"></div>
+
+		<section id="post_list">
+			<div class="content_container">
+				<h3>Occasionally I write blog posts: </h3>
+				<ul>
+					{% for post in site.posts %}
+						<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</section>
 
 	</body>
 
