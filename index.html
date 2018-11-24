@@ -6,15 +6,15 @@
 
 	<head>
 		{% include innerHead.html %}
-		
+
 		<title>{{ site.title }}</title>
-		
+
 		<link rel="stylesheet" href="/css/index.css">
 	</head>
-	
+
 	<body>
-		{% include sidebar.html %}
-		
+		{% include header.html %}
+
 		<main id="post_list">
 			{% for post in site.posts %}
 			<article>
@@ -23,14 +23,14 @@
 				{{ post.excerpt }}
 				<p class="btn"><a href="{{ post.url }}">Read more...</a></p>
 			</article>
-			
+
 			<hr />
-			
-			{% endfor %}	
+
+			{% endfor %}
 
 		</main>
-		
+
 	</body>
-	
+
 </html>
 
