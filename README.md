@@ -1,4 +1,4 @@
-# blackcathikari.github.io
+# metricjs.github.io
 
 My personal home page and blog, powered by Jekyll. I intend to use it to practice:
 
