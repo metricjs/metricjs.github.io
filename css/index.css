@@ -35,10 +35,10 @@ ul.posts-list a {
 }
 
 ul.posts-list p.external-source {
-	color: #444b;
+	color: #555;
 }
 
 ul.posts-list p.external-source a {
-	color: #555;
+	color: #444b;
 	font-weight: bold;
 }
