@@ -71,18 +71,18 @@
 
 		<section id="post_list">
 			<div class="content_container">
-				<h3>Blog posts</h3>
+				<h2>Blog posts</h2>
 				<p>Occasionally, I write blog posts. Mostly for practice, sometimes for work or other things. The following is a (hopefully) complete list.</p>
 				<ul class="posts-list">
 					{% for post in site.posts %}
 						<li>
-							<p class="post-date">{{ site.date | date: "%-d %B %Y" }}</p>
+							<p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
 							
 							{% if post.external_url %}
-								<h2><a class="external-url" rel="canonical" href="{{ post.external_url }}">{{ post.title }}</a></h2> 
+								<h3><a class="external-url" rel="canonical" href="{{ post.external_url }}">{{ post.title }}</a></h3> 
 								<p><em>@ {{ post.external_site }}</em></p>
 							{% else %}
-								<h2><a rel="canonical" href="{{ post.url }}">{{ post.title }}</a></h2>
+								<h3><a rel="canonical" href="{{ post.url }}">{{ post.title }}</a></h3>
 							{% endif %}
 						</li>
 					{% endfor %}
