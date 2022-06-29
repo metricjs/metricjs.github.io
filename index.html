@@ -75,11 +75,13 @@
 				<p>Occasionally, I write blog posts. Mostly for practice, sometimes for work or other things. The following is a (hopefully) complete list.</p>
 				<ul>
 					{% for post in site.posts %}
-						{% if post.external_url %}
-						<a class="external-url" rel="canonical" href="{{ post.external_url }}">{{ post.title }}</a>
-						{% else %}
-						<a rel="canonical" href="{{ post.url }}">{{ post.title }}</a>
-						{% endif %}
+						<li>
+							{% if post.external_url %}
+							🔗<a class="external-url" rel="canonical" href="{{ post.external_url }}">{{ post.title }}</a> (<em>{{ post.external_site }}</em>)
+							{% else %}
+								<a rel="canonical" href="{{ post.url }}">{{ post.title }}</a>
+							{% endif %}
+						</li>
 					{% endfor %}
 				</ul>
 			</div>
