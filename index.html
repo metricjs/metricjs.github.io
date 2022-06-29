@@ -92,14 +92,14 @@
 					<div class="pagination">
 						<p>
 							{% if paginator.previous_page %}
-								<a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+								<a class="pagination-skipper" href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
 							{% else %}
-								<span>&laquo; Prev</span>
+								<span class="pagination-skipper">&laquo; Prev</span>
 							{% endif %}
 
 							{% for page in (1..paginator.total_pages) %}
 								{% if page == paginator.page %}
-									<em>{{ page }}</em>
+									{{ page }}
 								{% elsif page == 1 %}
 									<a href="/">{{ page }}</a>
 								{% else %}
@@ -108,9 +108,9 @@
 							{% endfor %}
 
 							{% if paginator.next_page %}
-								<a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+								<a class="pagination-skipper" href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
 							{% else %}
-								<span>Next &raquo;</span>
+								<span class="pagination-skipper">Next &raquo;</span>
 							{% endif %}
 						</p>
 					</div>

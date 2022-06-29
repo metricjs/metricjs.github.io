@@ -42,3 +42,11 @@ ul.posts-list p.external-source a {
 	color: #444b;
 	font-weight: bold;
 }
+
+.pagination p, .pagination span, .pagination a {
+	color: #444b;
+}
+
+.pagination .pagination-skipper {
+	margin: 0 5px;
+}
