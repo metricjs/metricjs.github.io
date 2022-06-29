@@ -19,14 +19,15 @@
 			<div class="content_container">
 				<h2>Projects</h2>
 				<ul>
-					<li><a href="http://riptidesquids.com/">Website</a> for my Splatoon team</li>
+					<li><a href="http://riptidesquids.com/">Website</a> for my Splatoon team (code <a href="https://github.com/calamarcat/riptide-website">here</a>)</li>
+					<li><a href="https://github.com/calamarcat/overlayprjct">Custom stream overlays</a></li>
 				</ul>
 			</div>
 		</section>
 
 		<div class="divider"></div>
 
-		<section id="work_experience">
+		<!-- <section id="work_experience">
 			<div class="content_container">
 				<h2>Work Experience</h2>
 				<h3><a href="https://www.tiny.cloud">Tiny</a></h3>
@@ -64,16 +65,21 @@
 						<li>Major: Psychology</li>
 					</ul>
 			</div>
-		</section>
+		</section> -->
 
-		<div class="divider"></div>
+		<!-- <div class="divider"></div> -->
 
 		<section id="post_list">
 			<div class="content_container">
-				<h3>Occasionally I write blog posts: </h3>
+				<h3>Blog posts</h3>
+				<p>Occasionally, I write blog posts. Mostly for practice, sometimes for work or other things. The following is a (hopefully) complete list.</p>
 				<ul>
 					{% for post in site.posts %}
-						<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+						{% if post.external_url %}
+						<a class="external-url" rel="canonical" href="{{ post.external_url }}">{{ post.title }}</a>
+						{% else %}
+						<a rel="canonical" href="{{ post.url }}">{{ post.title }}</a>
+						{% endif %}
 					{% endfor %}
 				</ul>
 			</div>
