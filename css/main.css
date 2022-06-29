@@ -1,5 +1,5 @@
 body, h1, h2, h3, p, a, ul, ol, header, footer, nav, #post_list, article {
-	font-size: 17px;
+	font-size: 18px;
 	color: #444;
 	font-family: 'Gentium Basic', serif;
 	border: 0;
@@ -35,7 +35,7 @@ h2 {
 	font-size: 1.4em;
 	letter-spacing: 2px;
 	color: #555;
-	margin: 10px 0;
+	margin: 0.5em 0;
 }
 
 h3 {
@@ -90,8 +90,8 @@ hr {
 }
 
 #header .content_container #bch_icon {
-	width: 150px;
-	margin: 10px 10px 10px 0;
+	width: 180px;
+	margin: 10px 20px 10px 0;
 }
 
 #header_text {
