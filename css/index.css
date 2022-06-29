@@ -17,15 +17,19 @@ ul.posts-list {
 }
 
 ul.posts-list li {
-	margin: 20px 0;
+	margin: 30px 0;
 }
 
 ul.posts-list #post-date {
 	font-size: 0.8em;
 	font-weight: 100;
+	color: #444444bb
 }
 
 ul.posts-list h3 {
 	font-weight: bold;
+
+}
+ul.posts-list a {
 	text-decoration: none;
 }

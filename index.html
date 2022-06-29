@@ -80,7 +80,7 @@
 							
 							{% if post.external_url %}
 								<h3><a class="external-url" rel="canonical" href="{{ post.external_url }}">{{ post.title }}</a></h3> 
-								<p><em>@ {{ post.external_site }}</em></p>
+								<p>Published @ <a href="{{ post.external_site_url }}">{{ post.external_site }}</a></p>
 							{% else %}
 								<h3><a rel="canonical" href="{{ post.url }}">{{ post.title }}</a></h3>
 							{% endif %}
